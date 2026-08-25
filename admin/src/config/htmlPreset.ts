@@ -59,7 +59,7 @@ import DOMPurify from 'dompurify';
 
 import type { Preset, EditorConfig } from './types';
 import { StrapiMediaLib, StrapiUploadAdapter } from '../plugins';
-
+import { SpecialCharactersEmoji } from '../plugins/SpecialCharactersEmoji';
 const editorConfig: EditorConfig = {
   licenseKey: 'GPL',
   plugins: [
@@ -103,6 +103,7 @@ const editorConfig: EditorConfig = {
     SourceEditing,
     SpecialCharacters,
     SpecialCharactersEssentials,
+    SpecialCharactersEmoji,
     Strikethrough,
     Style,
     Subscript,
