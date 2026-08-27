@@ -1,0 +1,2 @@
+import { Preset } from './types';
+export declare const defaultMarkdownPreset: Preset;

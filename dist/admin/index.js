@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
+const index = require("./index-iroC9zaU.js");
+require("ckeditor5");
+require("dompurify");
+exports.StrapiMediaLib = index.StrapiMediaLib;
+exports.StrapiUploadAdapter = index.StrapiUploadAdapter;
+exports.default = index.index;
+exports.defaultHtmlPreset = index.clonedDefaultHtmlPreset;
+exports.defaultMarkdownPreset = index.clonedDefaultMarkdownPreset;
+exports.defaultTheme = index.clonedDefaultTheme;
+exports.getPluginPresets = index.getPluginPresets;
+exports.getPluginTheme = index.getPluginTheme;
+exports.setPluginConfig = index.setPluginConfig;
